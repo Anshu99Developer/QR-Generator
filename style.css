@@ -1,0 +1,45 @@
+.QrBox{
+    border-color: royalblue;
+    border-style: solid;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr auto;
+    grid-row-gap: 10px;
+    margin: 100px auto;
+}
+#data{
+    outline: none;
+    height: 20px;
+    padding: 0.5rem;
+    border: 2px solid royalblue;
+    border-radius: 0.5rem;
+    resize: none;
+    grid-column: 1/-1;
+}
+button{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    padding: 5px;
+    border-radius: 0.5rem;
+    color: white;
+    transition: background-color 0.2s;
+}
+button:hover{
+    background-color: blue;
+}
+body
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#output{
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    grid-column: 1/-1;
+}
